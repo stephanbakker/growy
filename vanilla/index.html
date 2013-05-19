@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>Growy, vanilla</title>
+        <link rel="stylesheet" href="../css/growy.css" />
+    </head>
+    <body>
+        <textarea class="growy"></textarea>
+        <textarea class="growy"></textarea>
+
+        <p>will it work here too?</p>
+        <input type="text" />
+
+        <script src="growy.js"></script>
+        <script>
+            var ta1 = document.getElementsByTagName('textarea')[0],
+                ta2 = document.getElementsByTagName('textarea')[1],
+                par = document.getElementsByTagName('p')[0],
+                inp = document.getElementsByTagName('input')[0];
+
+
+            new Growy(ta1);
+            new Growy(ta2);
+
+            // testing
+            new Growy(par);
+            new Growy(inp);
+
+
+        </script>
+    </body>
+</html>
