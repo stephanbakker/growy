@@ -3,7 +3,7 @@ growy
 
 Super simple script to automagically grow the textarea just before a scrollbar would be necessary.
 
-demos
+demos:
 
 jquery plugin
 http:www.stephanbakker.nl/scripts/growy/jquery
